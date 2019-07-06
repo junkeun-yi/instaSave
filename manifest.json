@@ -2,5 +2,5 @@
   "name": "My Cool Extension",
   "description": "Download pictures from Instagram!",
   "version": "1.0",
-  "manifest_version": 2,
+  "manifest_version": 2
 }
