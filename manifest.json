@@ -14,6 +14,7 @@
     "matches": [
       "https://*.instagram.com/*","http://*.instagram.com/*"
     ],
+    "css":["popup_style.css"],
     "js": ["content.js"],
     "run_at":"document_end"
   }
