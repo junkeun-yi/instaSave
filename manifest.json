@@ -5,17 +5,14 @@
   "icons": { "16": "instaSave_logo.png" },
   "manifest_version": 2,
   "browser_action": {
-        "default_icon": "instaSave_logo.png",
-        "default_popup": "popup.html",
-        "default_title": "InstaSave"
+        "default_icon": "instaSave_logo.png"
     },
   "content_scripts": [
-  {
-    "matches": [
-      "https://*.instagram.com/*","http://*.instagram.com/*"
-    ],
-    "js": ["content.js"],
-    "run_at":"document_end"
-  }
-]
+    {
+      "matches": [
+        "https://*.instagram.com/*","http://*.instagram.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
 }
